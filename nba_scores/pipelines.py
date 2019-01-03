@@ -8,7 +8,7 @@ from pymongo import MongoClient
 
 
 class MongoDbPipeline(object):
-    collection = 'Scores'
+    collection = ''
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri # obtained from settings.py
@@ -24,6 +24,7 @@ class MongoDbPipeline(object):
     def open_spider(self, spider):
         self.client = MongoClient(self.mongo_uri)
         self.db = self.client[self.mongo_db]
+        self.collection = spider.city
 
     def close_spider(self, spider):
         self.client.close()

@@ -91,5 +91,5 @@ AUTOTHROTTLE_DEBUG = True
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 SPLASH_URL = 'http://127.0.0.1:8050'
-MONGO_URI = 'mongodb://localhost:27017'
-MONGO_DB = 'nba_scores'
+MONGO_URI = 'mongodb://heroku_q2jnq89j:t0ttmdj302sn9g65039m0kacvo@ds149034.mlab.com:49034/heroku_q2jnq89j' 
+MONGO_DB = 'heroku_q2jnq89j'
