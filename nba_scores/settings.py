@@ -90,6 +90,6 @@ AUTOTHROTTLE_DEBUG = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-SPLASH_URL = 'http://127.0.0.1:8050'
+SPLASH_URL = 'http://frozen-lake-93177.herokuapp.com/'
 MONGO_URI = 'mongodb://heroku_q2jnq89j:t0ttmdj302sn9g65039m0kacvo@ds149034.mlab.com:49034/heroku_q2jnq89j' 
 MONGO_DB = 'heroku_q2jnq89j'
