@@ -1,0 +1,11 @@
+json_parsing.py
+__pycache__/
+pipelines-backup.py
+date_loop.py
+score.py
+score_attempt.py
+score_links.py
+build/
+dbs/
+eggs/
+project.egg-info/
