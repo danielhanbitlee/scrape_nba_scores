@@ -10,3 +10,5 @@ dbs/
 eggs/
 project.egg-info/
 splash_heroku_address
+heroku_instructions
+*.swp
