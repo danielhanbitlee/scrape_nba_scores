@@ -9,3 +9,4 @@ build/
 dbs/
 eggs/
 project.egg-info/
+splash_heroku_address
