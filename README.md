@@ -21,6 +21,7 @@ This is a web scraper that extracts 2018 NBA scores from <a href='http://www.esp
 <h2>REST API Implementation</h2>
 	<ul>
 		<li>You can access the scraped data using <a href='https://nba-scores-api.herokuapp.com/'>2018 NBA Scores API</a>.
+		<li>You can access the code for the API <a href='https://github.com/danielhanbitlee/nba_scores_api_flask_pymongo'>here</a>.
 		<li>The REST API is implemented using the following:
 		<ul>
 			<li>Python (v. 3.6.7)
