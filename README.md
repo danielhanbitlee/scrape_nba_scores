@@ -1,11 +1,11 @@
-# Scraping 2018 NBA Scores
+# Scraping 2018-2019 NBA Scores
 
 <h3>By Daniel Lee</h3>
 <h3>January 4, 2019</h3>
 
 ## Description
 
-This is a web scraper that extracts 2018 NBA scores from <a href='http://www.espn.com'>espn.com</a>.
+This is a web scraper that extracts 2018-2019 NBA scores from <a href='http://www.espn.com'>espn.com</a>.
 
 <h2>Data Scraping Implementation</h2>
 	<ul>
@@ -20,7 +20,7 @@ This is a web scraper that extracts 2018 NBA scores from <a href='http://www.esp
 	</ul>
 <h2>REST API Implementation</h2>
 	<ul>
-		<li>You can access the scraped data using <a href='https://nba-scores-api.herokuapp.com/'>2018 NBA Scores API</a>.
+		<li>You can access the scraped data using <a href='https://nba-scores-api.herokuapp.com/'>2018-2019 NBA Scores API</a>.
 		<li>You can access the code for the API <a href='https://github.com/danielhanbitlee/nba_scores_api_flask_pymongo'>here</a>.
 		<li>The REST API is implemented using the following:
 		<ul>
