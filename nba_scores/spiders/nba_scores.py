@@ -23,7 +23,7 @@ class NBAScoresSpider(scrapy.Spider):
     name = 'nba_scores'
  
     start_date = date(2018, 10, 16)
-    end_date = date(2018, 12, 28)
+    end_date = date(2019, 1, 3)
  
     date_range = daterange(start_date, end_date)
  
