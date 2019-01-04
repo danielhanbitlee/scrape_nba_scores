@@ -27,7 +27,7 @@ This is a web scraper that extracts 2018-2019 NBA scores from <a href='http://ww
 			<li>Python (v. 3.6.7)
 			<li>Flask (v. 1.0.2)
 		</ul>
-		<li>This API is connected to a MongoDB database to access the data
+		<li>This API is connected to a MongoDB database to access the data.
 		<li>The API is deployed on Heroku.
 		<li>There's also an /auth route and a /register route for authentication and logging in. This requires Postman to use. For simplicity's sake, I removed the authentication requirements for the routes /team, /city, /date, /team_list, and /city_list.
 	</ul>
